@@ -15,6 +15,8 @@
 
 * [077.Jewels and Stones](src/me/rainking/JewelsAndStones.java)
 
+* [535.Encode and Decode TinyURL](src/me/rainking/EncodeAndDecodeTinyURL.java)
+
 * [804.Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
 
 * [807.Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
