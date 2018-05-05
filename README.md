@@ -1,7 +1,6 @@
 # 日拱一卒之LeetCode
 
 
-
 ## 1. 题库
 [LeetCode](https://leetcode.com/problemset/all/)
 
@@ -16,8 +15,12 @@
 
 * [077.Jewels and Stones](src/me/rainking/JewelsAndStones.java)
 
+* [804.Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
+
 * [807.Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
 
 ## 4. 对性能有影响的因素
 
-* if 的大括号会降低执行效率(为了可维护性还是加上吧)
+* 删除 if/for 的非必需大括号可提高执行效率(为了可维护性还是加上吧)
+
+* 长数组分行会影响效率
