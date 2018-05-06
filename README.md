@@ -17,9 +17,9 @@
 
 * [535.Encode and Decode TinyURL](src/me/rainking/EncodeAndDecodeTinyURL.java)
 
-* [595. Big Countries](src/me/rainking/BigCountries.sql)
+* [595.Big Countries](src/me/rainking/BigCountries.sql)
 
-* [627. Swap Salary](src/me/rainking/SwapSalary.sql)
+* [627.Swap Salary](src/me/rainking/SwapSalary.sql)
 
 * [804.Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
 
