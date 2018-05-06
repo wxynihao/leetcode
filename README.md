@@ -19,6 +19,8 @@
 
 * [595. Big Countries](src/me/rainking/BigCountries.sql)
 
+* [627. Swap Salary](src/me/rainking/SwapSalary.sql)
+
 * [804.Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
 
 * [807.Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
