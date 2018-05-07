@@ -23,9 +23,8 @@ public class UniqueMorseCodeWords {
         for (String word : words) {
             StringBuilder str = new StringBuilder();
             char[] charArray = word.toCharArray();
-            //a的ASCII码为97，char实为数值型，可进行加减操作
-            for(char ch : charArray)
-                str.append(alphabet[ch-97]);
+            //a的ASCII码为97，char可用作整型，可使用算术运算符
+            for(char ch : charArray) str.append(alphabet[ch-97]);
             strSet.add(str.toString());
         }
         return strSet.size();
