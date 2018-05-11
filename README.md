@@ -21,6 +21,10 @@
 
 * [077. Jewels and Stones](src/me/rainking/JewelsAndStones.java)
 
+* [175. Combine Two Tables](src/me/rainking/CombineTwoTables.sql) 运气有点好，188ms，一个遥遥领先的100%(滑稽)
+
+* [176. Second Highest Salary](src/me/rainking/SecondHighestSalary.sql) 
+
 * [461. Hamming Distance](src/me/rainking/HammingDistance.java)
 
 * [535. Encode and Decode TinyURL](src/me/rainking/EncodeAndDecodeTinyURL.java)
