@@ -17,6 +17,8 @@
 
 * [003. Longest Substring Without Repeating Characters](src/me/rainking/LongestSubstringWithoutRepeatingCharacters.java)
 
+* [006. ZigZag Conversion](src/me/rainking/ZigZagConversion.java)
+
 * [007. Reverse Integer](src/me/rainking/ReverseInteger.java)
 
 * [077. Jewels and Stones](src/me/rainking/JewelsAndStones.java)
@@ -38,11 +40,16 @@
 * [807. Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
 
 ## 4. 对性能有影响的因素
+### 4.1 字符串
+* 在涉及大量字符串拼接的操作时StringBuilder的效率远远优于String。
 
+### 4.1 数值
+* 位运算效率远高于算术运算
+
+### 4.1 格式
 * 删除 if/for 的非必需大括号可提高执行效率(为了可维护性还是加上吧)
 
 * 长数组分行会影响效率
 
+### 4.1 数据结构
 * 适时引入引入HashXxx可以显著提升效率
-
-* 位运算效率远高于算术运算
