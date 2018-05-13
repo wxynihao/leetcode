@@ -1,6 +1,5 @@
 # 日拱一卒之LeetCode
 
-
 ## 1. 题库
 [LeetCode](https://leetcode.com/problemset/all/)
 
@@ -20,6 +19,8 @@
 * [006. ZigZag Conversion](src/me/rainking/ZigZagConversion.java)
 
 * [007. Reverse Integer](src/me/rainking/ReverseInteger.java)
+
+* [009. Palindrome Number](src/me/rainking/PalindromeNumber.java)
 
 * [077. Jewels and Stones](src/me/rainking/JewelsAndStones.java)
 
@@ -53,3 +54,11 @@
 
 ### 4.1 数据结构
 * 适时引入引入HashXxx可以显著提升效率
+
+## 5. Trick
+
+* 利用数组下标和ASCII码记录字符，见[003. Longest Substring Without Repeating Characters](src/me/rainking/LongestSubstringWithoutRepeatingCharacters.java)
+
+* 利用位运算高效计算二进制中1的数量，见[461. Hamming Distance](src/me/rainking/HammingDistance.java)
+
+* 利用异或运算及char的整型特性，实现字符之间的互相转换，见[627. Swap Salary](src/me/rainking/SwapSalary.sql)
