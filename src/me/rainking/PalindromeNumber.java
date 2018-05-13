@@ -11,7 +11,7 @@ public class PalindromeNumber {
         PalindromeNumber o = new PalindromeNumber();
         System.out.println(o.isPalindrome(121));
         System.out.println(o.isPalindrome(-121));
-        System.out.println(o.isPalindrome(10))
+        System.out.println(o.isPalindrome(10));
     }
 
     public boolean isPalindrome(int x) {
