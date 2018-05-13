@@ -28,6 +28,8 @@
 
 * [176. Second Highest Salary](src/me/rainking/SecondHighestSalary.sql) 
 
+* [182. Duplicate Emails](src/me/rainking/DuplicateEmails.sql) 
+
 * [461. Hamming Distance](src/me/rainking/HammingDistance.java)
 
 * [535. Encode and Decode TinyURL](src/me/rainking/EncodeAndDecodeTinyURL.java)
