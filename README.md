@@ -40,7 +40,7 @@
 
 * [627. Swap Salary](src/me/rainking/SwapSalary.sql)
 
-* [657. Judge Route Circle](src/me/rainking/JudgeRouteCircle.java)
+* [657. Judge Route Circle](src/me/rainking/JudgeRouteCircle.java) 第二个100%成就达成
 
 * [804. Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
 
