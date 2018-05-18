@@ -24,8 +24,6 @@
 
 * [013. Roman to Integer](src/me/rainking/RomanToInteger.java)
 
-* [077. Jewels and Stones](src/me/rainking/JewelsAndStones.java)
-
 * [175. Combine Two Tables](src/me/rainking/CombineTwoTables.sql) 运气有点好，188ms，一个遥遥领先的100%(滑稽)
 
 * [176. Second Highest Salary](src/me/rainking/SecondHighestSalary.sql) 
@@ -40,9 +38,15 @@
 
 * [595. Big Countries](src/me/rainking/BigCountries.sql)
 
+* [620. Not Boring Movies](src/me/rainking/NotBoringMovies.sql)
+
 * [627. Swap Salary](src/me/rainking/SwapSalary.sql)
 
 * [657. Judge Route Circle](src/me/rainking/JudgeRouteCircle.java) 第二个100%成就达成
+
+* [728. Self Dividing Numbers](src/me/rainking/SelfDividingNumbers.java) 
+
+* [771. Jewels and Stones](src/me/rainking/JewelsAndStones.java)
 
 * [804. Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
 
