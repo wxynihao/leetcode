@@ -20,6 +20,8 @@
 
 * [007. Reverse Integer](src/me/rainking/ReverseInteger.java)
 
+* [008. String to Integer (atoi)](src/me/rainking/StringToInteger.java) 待优化
+
 * [009. Palindrome Number](src/me/rainking/PalindromeNumber.java)
 
 * [013. Roman to Integer](src/me/rainking/RomanToInteger.java)
