@@ -44,6 +44,8 @@
 
 * [595. Big Countries](src/me/rainking/BigCountries.sql)
 
+* [595. Classes More Than 5 Students](src/me/rainking/ClassesMoreThan5Students.sql)待优化（滑稽）
+
 * [620. Not Boring Movies](src/me/rainking/NotBoringMovies.sql)
 
 * [627. Swap Salary](src/me/rainking/SwapSalary.sql)
