@@ -28,6 +28,8 @@
 
 * [014. Longest Common Prefix](src/me/rainking/LongestCommonPrefix.java)
 
+* [151. Reverse Words in a String](src/me/rainking/ReverseInteger.java)
+
 * [175. Combine Two Tables](src/me/rainking/CombineTwoTables.sql) 运气有点好，188ms，一个遥遥领先的100%(滑稽)
 
 * [176. Second Highest Salary](src/me/rainking/SecondHighestSalary.sql) 
@@ -63,6 +65,8 @@
 ## 4. 对性能有影响的因素
 ### 4.1 字符串
 * 在涉及大量字符串拼接的操作时StringBuilder的效率远远优于String。
+
+* StringBuilder的append效率远远优于String的+。
 
 ### 4.1 数值
 * 位运算效率远高于算术运算
