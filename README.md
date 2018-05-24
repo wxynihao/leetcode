@@ -28,6 +28,8 @@
 
 * [014. Longest Common Prefix](src/me/rainking/LongestCommonPrefix.java)
 
+* [020. Valid Parentheses](src/me/rainking/ValidParentheses.java)
+
 * [151. Reverse Words in a String](src/me/rainking/ReverseInteger.java)
 
 * [175. Combine Two Tables](src/me/rainking/CombineTwoTables.sql) 运气有点好，188ms，一个遥遥领先的100%(滑稽)
