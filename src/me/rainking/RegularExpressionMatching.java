@@ -1,8 +1,5 @@
 package me.rainking;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 /**
  * @author Rain
  * @date 2018/5/21
@@ -22,8 +19,12 @@ public class RegularExpressionMatching {
     }
 
     public boolean isMatch(String s, String p) {
+        boolean result = false;
 
-        return false;
+
+
+
+        return result;
     }
 
 }

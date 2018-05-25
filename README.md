@@ -64,6 +64,8 @@
 
 * [807. Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
 
+* [832. Flipping an Image](src/me/rainking/FlippingAnImage.java)
+
 ## 4. 对性能有影响的因素
 ### 4.1 字符串
 * 在涉及大量字符串拼接的操作时StringBuilder的效率远远优于String。
