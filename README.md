@@ -89,6 +89,8 @@
 
 1. 利用数组下标和ASCII码记录字符，见[003. Longest Substring Without Repeating Characters](src/me/rainking/LongestSubstringWithoutRepeatingCharacters.java)
 
+1. 利用数组下标记录数值，其值记录次数，见[561. Array Partition I](src/me/rainking/ArrayPartitionI.java)
+
 1. 利用位运算高效计算二进制中1的数量，见[461. Hamming Distance](src/me/rainking/HammingDistance.java)
 
 1. 利用异或运算及char的整型特性，实现字符之间的互相转换，见[627. Swap Salary](src/me/rainking/SwapSalary.sql)
