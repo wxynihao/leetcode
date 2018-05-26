@@ -46,9 +46,11 @@
 
 1. [535. Encode and Decode TinyURL](src/me/rainking/EncodeAndDecodeTinyURL.java)
 
+1. [561. Array Partition I](src/me/rainking/ArrayPartitionI.java)
+
 1. [595. Big Countries](src/me/rainking/BigCountries.sql)
 
-1. [595. Classes More Than 5 Students](src/me/rainking/ClassesMoreThan5Students.sql)待优化（滑稽）
+1. [596. Classes More Than 5 Students](src/me/rainking/ClassesMoreThan5Students.sql)待优化（滑稽）
 
 1. [620. Not Boring Movies](src/me/rainking/NotBoringMovies.sql)
 
