@@ -36,6 +36,8 @@
 
 1. [176. Second Highest Salary](src/me/rainking/SecondHighestSalary.sql) 
 
+1. [181. Employees Earning More Than Their Managers](src/me/rainking/EmployeesEarningMoreThanTheirManagers.sql) 
+
 1. [182. Duplicate Emails](src/me/rainking/DuplicateEmails.sql) 
 
 1. [183. Customers Who Never Order](src/me/rainking/CustomersWhoNeverOrder.sql) 

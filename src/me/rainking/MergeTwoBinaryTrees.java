@@ -30,6 +30,22 @@ public class MergeTwoBinaryTrees {
 
         TreeNode t = o.mergeTrees(a1, b1);
 
+        TreeNode right = t;
+
+        while (right!=null){
+            System.out.println(t);
+
+
+            System.out.println(t.left);
+
+
+            System.out.println(t.right);
+        }
+
+
+
+
+
 
     }
 
@@ -37,11 +53,11 @@ public class MergeTwoBinaryTrees {
 
         TreeNode h = t1;
 
-        while (t1 != null || t2 != null) {
+        TreeNode right;
 
-        }
 
-        return null;
+
+        return h;
     }
 
 
