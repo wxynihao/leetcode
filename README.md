@@ -32,7 +32,7 @@
 
 1. [151. Reverse Words in a String](src/me/rainking/ReverseInteger.java)
 
-1. [175. Combine Two Tables](src/me/rainking/CombineTwoTables.sql) 运气有点好，188ms，一个遥遥领先的100%(滑稽)
+1. [175. Combine Two Tables](src/me/rainking/CombineTwoTables.sql)
 
 1. [176. Second Highest Salary](src/me/rainking/SecondHighestSalary.sql) 
 
@@ -52,19 +52,21 @@
 
 1. [595. Big Countries](src/me/rainking/BigCountries.sql)
 
-1. [596. Classes More Than 5 Students](src/me/rainking/ClassesMoreThan5Students.sql)待优化（滑稽）
+1. [596. Classes More Than 5 Students](src/me/rainking/ClassesMoreThan5Students.sql) 待优化
+
+1. [617. Merge Two Binary Trees](src/me/rainking/MergeTwoBinaryTrees.java) 待优化
 
 1. [620. Not Boring Movies](src/me/rainking/NotBoringMovies.sql)
 
 1. [627. Swap Salary](src/me/rainking/SwapSalary.sql)
 
-1. [657. Judge Route Circle](src/me/rainking/JudgeRouteCircle.java) 第二个100%成就达成
+1. [657. Judge Route Circle](src/me/rainking/JudgeRouteCircle.java) 第2个100%达成
 
 1. [728. Self Dividing Numbers](src/me/rainking/SelfDividingNumbers.java) 
 
 1. [771. Jewels and Stones](src/me/rainking/JewelsAndStones.java)
 
-1. [804. Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第一个100%成就达成
+1. [804. Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第1个100%达成
 
 1. [807. Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
 
