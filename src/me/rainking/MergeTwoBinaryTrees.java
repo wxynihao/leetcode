@@ -1,5 +1,7 @@
 package me.rainking;
 
+import java.util.LinkedList;
+
 /**
  * @author Rain
  * @date 2018/5/26
@@ -28,36 +30,130 @@ public class MergeTwoBinaryTrees {
         b2.right = b4;
         b3.right = b5;
 
+
         TreeNode t = o.mergeTrees(a1, b1);
 
-        TreeNode right = t;
-
-        while (right!=null){
-            System.out.println(t);
-
-
-            System.out.println(t.left);
-
-
-            System.out.println(t.right);
-        }
-
-
-
-
+        o.levelTree(t);
 
 
     }
 
+    /**
+     * 先序遍历
+     */
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+        if (t1 == null) {
+            return t2;
+        }
+        if (t2 == null) {
+            return t1;
+        }
 
-        TreeNode h = t1;
+        TreeNode root = new TreeNode(t1.val + t2.val);
+        root.left = mergeTrees(t1.left, t2.left);
+        root.right = mergeTrees(t1.right, t2.right);
 
-        TreeNode right;
+        return root;
+    }
+
+    /**
+     * 按层遍历
+     * 使用循环队列存储节点
+     */
+    public TreeNode mergeTrees2(TreeNode t1, TreeNode t2) {
+//        if (t1 == null) {
+//            return t2;
+//        }
+//        if (t2 == null) {
+//            return t1;
+//        }
+//
+//        TreeNode p1;
+//        TreeNode[] q1 = new TreeNode[MAXLEN];
+//        int head1 = 0, tail1 = 0;
+//
+//        TreeNode p2;
+//        TreeNode[] q2 = new TreeNode[MAXLEN];
+//        int head2 = 0, tail2 = 0;
+//
+//
+//        tail1 = (tail1 + 1) % MAXLEN;
+//        q1[tail1] = t1;
+//        tail2 = (tail2 + 1) % MAXLEN;
+//        q2[tail2] = t2;
+//
+//        while (head1 != tail1 || head2 != tail2) {
+//            head1 = (head1 + 1) % MAXLEN;
+//            if (head1 != tail1) {
+//                p1 = q1[head1];
+//            } else {
+//                p1 = new TreeNode(0);
+//            }
+//
+//            head2 = (head2 + 1) % MAXLEN;
+//            if (head2 != tail2) {
+//                p2 = q2[head2];
+//            } else {
+//                p2 = new TreeNode(0);
+//            }
+//
+//
+//            System.out.println(p1.val+p2.val);
+//
+//            if (p1.left != null) {
+//                tail1 = (tail1 + 1) % MAXLEN;
+//                q1[tail1] = p1.left;
+//            }
+//
+//            if (p1.right != null) {
+//                tail1 = (tail1 + 1) % MAXLEN;
+//                q1[tail1] = p1.right;
+//            }
+//        }
 
 
+        return null;
+    }
 
-        return h;
+    /**
+     * 按层遍历
+     * 使用循环队列存储节点
+     *
+     * @param t
+     */
+    static final int MAXLEN = 100;
+
+    void levelTree(TreeNode t) {
+
+        TreeNode p1;
+        TreeNode[] q1 = new TreeNode[MAXLEN];
+        int head1 = 0, tail1 = 0;
+
+        TreeNode p2;
+        TreeNode[] q2 = new TreeNode[MAXLEN];
+        int head2 = 0, tail2 = 0;
+
+        if (t != null) {
+            tail1 = (tail1 + 1) % MAXLEN;
+            q1[tail1] = t;
+        }
+
+        while (head1 != tail1) {
+            head1 = (head1 + 1) % MAXLEN;
+            p1 = q1[head1];
+
+            System.out.println(p1);
+
+            if (p1.left != null) {
+                tail1 = (tail1 + 1) % MAXLEN;
+                q1[tail1] = p1.left;
+            }
+
+            if (p1.right != null) {
+                tail1 = (tail1 + 1) % MAXLEN;
+                q1[tail1] = p1.right;
+            }
+        }
     }
 
 
