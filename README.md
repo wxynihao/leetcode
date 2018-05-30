@@ -42,6 +42,8 @@
 
 1. [183. Customers Who Never Order](src/me/rainking/CustomersWhoNeverOrder.sql) 
 
+1. [344. Reverse String](src/me/rainking/ReverseInteger.java) 
+
 1. [461. Hamming Distance](src/me/rainking/HammingDistance.java)
 
 1. [476. Number Complement](src/me/rainking/NumberComplement.java)
