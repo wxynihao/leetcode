@@ -70,6 +70,8 @@
 
 1. [804. Unique Morse Code Words](src/me/rainking/UniqueMorseCodeWords.java) 第1个100%达成
 
+1. [806. Number of Lines To Write String](src/me/rainking/NumberOfLinesToWriteString.java)
+
 1. [807. Max Increase to Keep City Skyline](src/me/rainking/MaxIncreaseToKeepCitySkyline.java)
 
 1. [832. Flipping an Image](src/me/rainking/FlippingAnImage.java)
